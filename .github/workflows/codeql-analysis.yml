@@ -69,10 +69,3 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
-
-    - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting:spewehascouter
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
