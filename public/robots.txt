@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://spewehascouter.web.app
-
-# Sitemaps
-Sitemap: https://spewehascouter.web.app/sitemap.xml
